@@ -1,5 +1,7 @@
 import CaseStudiesSection from "./components/CaseStudyCard";
 import DifferenceSection from "./components/Crewcial";
+import CtaSection from "./components/CtaSection";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import InsightsTipsSection from "./components/InsightsTipsSection";
 import MarqueeSection from "./components/Marquee";
@@ -15,14 +17,16 @@ export default function App() {
     <div className="bg-[#1A1A1A]">
       <Navbar />
      <Hero/>
-   <MarqueeSection/>
+   <MarqueeSection/> 
      <ServicesSection/>
      <DifferenceSection/>
      <ProcessSection/>
      <CaseStudiesSection/>
-     <PricingSection/>
+     <PricingSection/> 
      <InsightsTipsSection/>
      <TestimonialsSection/>
+     <CtaSection/>
+     <Footer/> 
     </div>
   );
 }
