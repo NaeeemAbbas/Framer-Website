@@ -2,53 +2,63 @@
 
 import { Star } from "lucide-react"
 import React from "react"
+import img from '../assets/img.jpg'
+import img1 from '../assets/img1.png'
+import img2 from '../assets/img2.png'
+import img3 from '../assets/img3.jpg'
+import img4 from '../assets/img4.jpg'
+import img5 from '../assets/img5.jpg'
+import img6 from '../assets/img6.jpg'
+import img7 from '../assets/img7.jpg'
+
+
 
 const testimonials = [
   {
     quote: "Working with Crewcial has been amazing. Great results!",
-    avatar: "/src/assets/img.jpg",
+    avatar: img,
     name: "Josh Brown",
     title: "Social Manager",
   },
   {
     quote: "Thanks to Crewcial, I finally understand Facebook ads. Their guidance was a game-changer!",
-    avatar: "/src/assets/img1.jpg",
+    avatar: img1,
     name: "Kylie Davis",
     title: "Digital Marketer",
   },
   {
     quote: "We hit our targets thanks to Crewcial! Their strategies really work! Highly recommend!",
-    avatar: "/src/assets/img2.png",
+    avatar:img2,
     name: "Sherry Greys",
     title: "Brand Visualizer",
   },
   {
     quote: "I learned so much from Crewcial! They helped me tackle my ad fears and they are 100% my go-to!",
-    avatar: "/src/assets/img3.jpg",
+    avatar: img3,
     name: "Alex Johnson",
     title: "E-commerce Owner",
   },
   {
     quote: "The session was informative and inspiring! I left ready to implement everything.",
-    avatar: "/src/assets/img4.jpg",
+    avatar: img4,
     name: "Zaheer Khan",
     title: "Online Marketer",
   },
   {
     quote: "Thank you, Crewcial, for your guidance! My business has seen real growth. I will stay in touch!",
-    avatar: "/src/assets/img5.jpg",
+    avatar: img5,
     name: "Maria Lopez",
     title: "Startup Founder",
   },
   {
     quote: "Crewcial's team is incredibly responsive and knowledgeable. They truly care about our success.",
-    avatar: "/src/assets/img6.jpg",
+    avatar: img6,
     name: "David Chen",
     title: "Marketing Director",
   },
   {
     quote: "Outstanding results and excellent communication. Highly recommend Crewcial for any marketing needs.",
-    avatar: "/src/assets/img7.jpg",
+    avatar: img7,
     name: "Sarah Miller",
     title: "Small Business Owner",
   },

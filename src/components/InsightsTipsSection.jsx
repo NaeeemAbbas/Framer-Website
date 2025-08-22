@@ -1,10 +1,14 @@
 "use client"
 
 import { CalendarDays } from "lucide-react"
+import img from '../assets/img.jpg'
+import img1 from '../assets/img1.jpg'
+import img2 from '../assets/img2.png'
+
 
 const articles = [
   {
-    image: "/src/assets/img.jpg",
+    image: img,
     category: "BRANDING",
     date: "Jul 17, 2024",
     title: "Building a Strong Brand Identity",
@@ -12,7 +16,7 @@ const articles = [
       "This article emphasizes the power of storytelling in shaping a brand's identity and creating emotional connections with customers.",
   },
   {
-    image: "/src/assets/img1.jpg",
+    image: img1,
     category: "PARTNERSHIPS",
     date: "Sep 10, 2024",
     title: "Influencer Partnerships for Brand Growth",
@@ -20,7 +24,7 @@ const articles = [
       "This article discusses how brands can utilize influencer partnerships to expand their reach and foster authentic connections.",
   },
   {
-    image: "/src/assets/img2.png",
+    image:img2,
     category: "VIRAL",
     date: "Sep 5, 2024",
     title: "Top 10 Viral Content Campaigns to Inspire Your Strategy",

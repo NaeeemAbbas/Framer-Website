@@ -2,6 +2,10 @@
 
 import { useRef, useEffect, useState, useCallback } from "react"
 
+import img6 from '../assets/img6.jpg'
+import img7 from '../assets/img7.jpg'
+
+
 const stats = [
   { title: "Campaign ROI", value: "4x return on ad spend" },
   { title: "Lead Increase", value: "+65% average growth" },
@@ -11,7 +15,7 @@ const stats = [
 
 const caseStudiesData = [
   {
-    image: "/src/assets/img7.jpg",
+    image: img7,
     date: "Oct 29, 2024",
     category: "SOCIAL MEDIA",
     title: "DV Fitness Brand Social Media",
@@ -19,7 +23,7 @@ const caseStudiesData = [
       "A fitness brand struggled to maintain consistent engagement across multiple social media platforms and enhance.",
   },
   {
-    image: "/src/assets/img6.jpg",
+    image: img6.jpg,
     date: "Sep 15, 2024",
     category: "BRANDING",
     title: "InnovateTech Rebranding Success",
@@ -27,7 +31,7 @@ const caseStudiesData = [
       "Helped a tech startup redefine its brand identity, leading to increased market recognition and investor interest.",
   },
   {
-    image: "/src/assets/img7.jpg",
+    image: img7,
     date: "Aug 01, 2024",
     category: "PAID ADS",
     title: "GourmetGo App User Acquisition",
@@ -35,7 +39,7 @@ const caseStudiesData = [
       "Launched a highly successful paid advertising campaign for a food delivery app, boosting new user sign-ups by 120%.",
   },
   {
-    image: "/src/assets/img7.jpg",
+    image: img7,
     date: "Jul 10, 2024",
     category: "CONTENT MARKETING",
     title: "ChicStyle E-commerce Content Strategy",
@@ -43,7 +47,7 @@ const caseStudiesData = [
       "Developed a content marketing strategy that significantly increased organic traffic and sales for an online fashion boutique.",
   },
   {
-    image: "/src/assets/img7.jpg",
+    image: img7,
     date: "Jun 20, 2024",
     category: "SEO",
     title: "UrbanLiving Realty SEO Boost",
@@ -51,7 +55,7 @@ const caseStudiesData = [
       "Implemented SEO best practices for a real estate agency, resulting in top rankings for key local search terms.",
   },
   {
-    image: "/src/assets/img7.jpg",
+    image: img7,
     date: "May 05, 2024",
     category: "COMMUNITY",
     title: "Harmony Records Fan Engagement",
